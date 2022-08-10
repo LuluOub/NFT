@@ -1,0 +1,192 @@
+body {
+    background-color: hsl(217, 54%, 11%);
+    font-family: "Outfit", sans-serif;
+    height: 100vh;
+    width: 100%;
+    max-width: 1440px;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: center;
+
+
+}
+
+.card {
+    width: 350px;
+    height: 550px;
+    margin: 0;
+    background-color: hsl(216, 50%, 16%);
+    border-radius: 10px;
+    padding: 0;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+    left: 50%;
+    position: static;
+
+}
+
+.nftphoto {
+    width: 300px;
+    height: 300px;
+    transform: scale(95%);
+    margin: 0;
+    background-image: url("./images/image-equilibrium.jpg") ;
+    background-size: cover;
+    border-radius: 10px;
+    padding: 0;
+    position: absolute;
+    top: 230px;
+
+}
+
+.nftphoto:hover{
+
+    filter: opacity(0.5);
+    transition: all 1s ease;
+
+
+
+}
+
+h1 {
+    font-family: "Outfit", sans-serif;
+    color: hsl(0, 0%, 100%);
+    position: absolute;
+    top: 540px;
+    font-size: 20px;
+    font-weight: 600;
+    left: 820px;
+    margin: 0;
+    padding: 0;
+
+}
+h1:hover {
+    color: hsl(178, 100%, 50%);
+    transition: all 1s ease;
+
+}
+
+h2 {
+    font-family: "Outfit", sans-serif;
+    color: hsl(215, 51%, 70%);
+    position: absolute;
+    font-weight: 300;
+    top: 570px;
+    font-size: 18px;
+    max-width: 350px;
+
+    left: 820px;
+}
+
+h3 {
+    font-family: "Outfit", sans-serif;
+    color: hsl(178, 100%, 50%);
+    position: absolute;
+    font-weight: 600;
+    top: 630px;
+    font-size: 15px;
+    max-width: 350px;
+
+    left: 835px;
+}
+
+.iconetherum {
+
+    background-image: url("./images/icon-ethereum.svg");
+    background-size: cover;
+    position: absolute;
+    top: 645px;
+    left : 818px;
+    margin: 0;
+    padding: 0;
+    width: 11px;
+    height: 18px;
+
+}
+
+.barre {
+    width: 290px;
+    height: 1px;
+    background-size: cover;
+    margin: 0;
+    background-color: white;
+    border-radius: 10px;
+    padding: 0;
+    top: 690px;
+    left: 819px;
+    filter: opacity(0.1);
+    position: absolute;
+
+}
+
+.daysleft {
+    background-image: url("./images/icon-clock.svg");
+    background-size: cover;
+    position: absolute;
+    top: 645px;
+    left : 1010px;
+    margin: 0;
+    padding: 0;
+    width: 17px;
+    height: 17px;
+}
+h4 {
+    font-family: "Outfit", sans-serif;
+    color: hsl(215, 51%, 70%);
+    position: absolute;
+    font-weight: 300;
+    top: 625px;
+    font-size: 15px;
+    max-width: 350px;
+
+    left: 1030px;
+}
+
+.imageprofile {
+    background-image: url("./images/image-avatar.png");
+    background-size: cover;
+    position: absolute;
+    top: 655px;
+    left : 770px;
+    margin: 0;
+    padding: 0;
+    width: 132px;
+    height: 132px;
+    border:  3px solid white;
+    border-radius: 100px;
+    transform: scale(0.25);
+}
+
+h5 {
+    font-family: "Outfit", sans-serif;
+    color: hsl(215, 51%, 70%);
+    position: absolute;
+    font-weight: 300;
+    top: 690px;
+    font-size: 15px;
+    max-width: 350px;
+
+    left: 870px;
+}
+
+
+
+h6 {
+    font-family: "Outfit", sans-serif;
+    color: white;
+    position: absolute;
+    font-weight: 300;
+    top: 680px;
+    font-size: 15px;
+    max-width: 350px;
+
+    left: 950px;
+
+
+}
+    h6:hover{
+        color: hsl(178, 100%, 50%);
+        transition: all 1s ease;
+    }
+
