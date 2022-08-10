@@ -36,8 +36,8 @@ body {
     border-radius: 10px;
     padding: 0;
     position: absolute;
-    top: 230px;
-
+    top: 210px;
+    left: 790px;
 }
 
 .nftphoto:hover{
@@ -53,10 +53,10 @@ h1 {
     font-family: "Outfit", sans-serif;
     color: hsl(0, 0%, 100%);
     position: absolute;
-    top: 540px;
+    top: 530px;
     font-size: 20px;
     font-weight: 600;
-    left: 820px;
+    left: 803px;
     margin: 0;
     padding: 0;
 
@@ -72,11 +72,11 @@ h2 {
     color: hsl(215, 51%, 70%);
     position: absolute;
     font-weight: 300;
-    top: 570px;
+    top: 555px;
     font-size: 18px;
     max-width: 350px;
 
-    left: 820px;
+    left: 803px;
 }
 
 h3 {
@@ -88,7 +88,7 @@ h3 {
     font-size: 15px;
     max-width: 350px;
 
-    left: 835px;
+    left: 825px;
 }
 
 .iconetherum {
@@ -96,8 +96,8 @@ h3 {
     background-image: url("./images/icon-ethereum.svg");
     background-size: cover;
     position: absolute;
-    top: 645px;
-    left : 818px;
+    top: 630px;
+    left : 803px;
     margin: 0;
     padding: 0;
     width: 11px;
@@ -113,8 +113,8 @@ h3 {
     background-color: white;
     border-radius: 10px;
     padding: 0;
-    top: 690px;
-    left: 819px;
+    top: 670px;
+    left: 803px;
     filter: opacity(0.1);
     position: absolute;
 
@@ -124,8 +124,8 @@ h3 {
     background-image: url("./images/icon-clock.svg");
     background-size: cover;
     position: absolute;
-    top: 645px;
-    left : 1010px;
+    top: 630px;
+    left : 975px;
     margin: 0;
     padding: 0;
     width: 17px;
@@ -136,19 +136,19 @@ h4 {
     color: hsl(215, 51%, 70%);
     position: absolute;
     font-weight: 300;
-    top: 625px;
+    top: 610px;
     font-size: 15px;
     max-width: 350px;
 
-    left: 1030px;
+    left: 100px;
 }
 
 .imageprofile {
     background-image: url("./images/image-avatar.png");
     background-size: cover;
     position: absolute;
-    top: 655px;
-    left : 770px;
+    top: 630px;
+    left : 755px;
     margin: 0;
     padding: 0;
     width: 132px;
@@ -163,11 +163,11 @@ h5 {
     color: hsl(215, 51%, 70%);
     position: absolute;
     font-weight: 300;
-    top: 690px;
+    top: 665px;
     font-size: 15px;
     max-width: 350px;
 
-    left: 870px;
+    left: 860px;
 }
 
 
@@ -177,11 +177,11 @@ h6 {
     color: white;
     position: absolute;
     font-weight: 300;
-    top: 680px;
+    top: 655px;
     font-size: 15px;
     max-width: 350px;
 
-    left: 950px;
+    left: 940px;
 
 
 }
